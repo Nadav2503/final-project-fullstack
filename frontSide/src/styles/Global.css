@@ -1,0 +1,21 @@
+/* global.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    /* Ensure body and html take up full height */
+    width: 100%;
+    /* Ensure full width */
+    overflow-x: hidden;
+    /* Prevent horizontal overflow */
+}
+
+#root {
+    height: 100%;
+    /* Ensure the root element takes full height */
+}
